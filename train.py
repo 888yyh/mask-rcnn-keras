@@ -3,7 +3,7 @@ import os
 
 import tensorflow as tf
 import tensorflow.keras as keras
-from keras.callbacks import (EarlyStopping, LearningRateScheduler,
+from tensorflow.keras.callbacks import (EarlyStopping, LearningRateScheduler,
                              ModelCheckpoint, TensorBoard)
 from keras.layers import Conv2D, Dense, DepthwiseConv2D, PReLU
 from keras.optimizers import SGD, Adam
