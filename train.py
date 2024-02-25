@@ -127,10 +127,10 @@ if __name__ == "__main__":
     #   获得图片路径和标签
     #   默认指向根目录下面的datasets/coco文件夹
     #----------------------------------------------------#
-    train_image_path        = "datasets/coco/JPEGImages"
-    train_annotation_path   = "datasets/coco/Jsons/train_annotations.json"
-    val_image_path          = "datasets/coco/JPEGImages"
-    val_annotation_path     = "datasets/coco/Jsons/val_annotations.json"
+    train_image_path        = "/kaggle/input/coco-1/coco1/JPEGImages"
+    train_annotation_path   = "/kaggle/input/coco-1/coco1Jsons/train_annotations.json"
+    val_image_path          = "/kaggle/input/coco-1/coco1/JPEGImages"
+    val_annotation_path     = "/kaggle/input/coco-1/coco1/Jsons/val_annotations.json"
 
     #------------------------------------------------------#
     #   设置用到的显卡
